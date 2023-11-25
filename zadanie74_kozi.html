@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+        <body>
+            <table border="1" style="font-family: Arial, Helvetica, sans-serif;">
+                <tr>
+                  <td><h2>Kolor tła</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor {background-color: kolor;}<br><br>
+                  body {background-color: blue;}</td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Tło Obrazkowe</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor {background-image: url(adres);}<br><br>
+                  background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");<br><br></td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Powtarzanie tła</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor {background-repeat: powtarzanie;}<br><br>
+                  {background-repeat: repeat-x;}<br>
+                  Parametry:<br>
+                  "repeat" - jednocześnie w pionie i poziomie - domyślnie<br>
+                  "repeat-x" - w poziomie<br>
+                  "repeat-y" - w pionie<br>
+                  "no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu</td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Pozycja tła</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor {background-position: pozycja;}<br><br>
+                  {background-position: center;}<br>
+                  Parametry:<br>
+                  "center" - obrazek na środku (w centrum)<br>
+                  "left" - obrazek po lewej<br>
+                  "right" - obrazek po prawej<br>
+                  "top" - obrazek na górze<br>
+                  "bottom" - obrazek na dole<br>
+                  "left top" - lewy-górny róg<br>
+                  "left bottom" - lewy-dolny róg<br>
+                  "right top" - prawy-górny róg<br>
+                  "right bottom" - prawy-dolny róg</td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Zaczepienie tła</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor {background-attachment: zaczepienie;}<br><br>
+                  {background-attachment: scroll;}<br>
+                  Parametry:<br>
+                  "scroll" - przewijanie tła (domyślnie)<br>
+                  "fixed" - tło nieruchome</td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Łączenie atrybutów tła</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor {background: wartości atrybutów;}<br><br>
+                  p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) no-repeat scroll center;}<br>
+                  Parametry:<br>
+                  kolor tła<br>
+                  tło obrazkowe<br>
+                  powtarzanie tła<br>
+                  zaczepienie tła<br>
+                  pozycja tła</td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Gradient liniowy</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) }<br><br>
+                  background: linear-gradient(to bottom, black 0%, white 100%)<br>
+                  Parametry:<br>
+                  słowa kluczowe<br>
+                  kąt<br>
+                  Kolor1 odległość1, kolor2 odległość2</td>
+                </tr>
+          
+                <tr>
+                  <td><h2>Gradient promienisty</h2></td>
+                  <td>Jednozadaniowy opis:<br><br>
+                  selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }<br><br>
+                  selektor { background: repeating-radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }<br>
+                  Parametry:<br>
+                  closest-side - gradient będzie się rozchodził do najbliższej krawędzi elementu<br>
+                  farthest-side - do najdalszej krawędzi<br>
+                  closest-corner - do najbliższego narożnika<br>
+                  farthest-corner - do najdalszego narożnika (domyślnie)<br>
+                  promień - podany za pomocą jednostek długości lub procentowo<br>
+                  poziom pion - poziomy i pionowy promień elipsy, określony za pomocą jednostek długości lub procentowo</td>
+                </tr>
+              </table>
+        </body>
+</html>
