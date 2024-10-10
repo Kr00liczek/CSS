@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+        <body style="font-family: Arial, Helvetica, sans-serif;">
+            <b>Selektor atrybutu o określonej wartości</b><br><br>
+
+            Składnia teoretyczna:<br><br>
+
+            <fieldset>selektor [atrybut=”wartość atrybutu”] [właściwość: wartość;]</fieldset>
+            &nbsp;np.
+            <fieldset>p [align=”center”] {font-size: 16pt; color: yellow;}</fieldset><br><br>
+
+            Znaczniki mogą być formatowane na podstawie posiadanych atrybutów. Np. jeśli &lt;p&gt; (akapit)
+            posiada atrybut align (wyrównywanie) to inaczej będzie wyświetlany (np. innym kolorem
+            czcionki) akapit wyrównywania do lewej , a inaczej do prawej.<br><br>
+
+            <b>Selektorem</b> może być dowolny znacznik, np. p - akapit, h1 - tytuł czy td - komórka tabeli i inne.<br><br>
+
+            <b>Atrybut</b> oznacza konkretny parametr nadany znacznikowi z poziomu (X)HTML (np. atrybut title="...").<br><br>
+
+            <b>"Wartość atrybutu"</b> to określona wartość, która została nadana temu atrybutowi (np. treśćatrybutu title="...").<br><br>
+
+            <b>"Cecha" oraz "wartość"</b> określają atrybuty elementu nadane poprzez style.<br><br>
+
+            <u>Zastosowanie</u><br>
+            Polecenie to może zostać wykorzystane dla elementów, którym z poziomu (X)HTML został
+            nadany atrybut, który ma określoną wartość. Pozwala nadać konkretne cechy elementom,
+            które posiadają atrybut, właśnie z taką dokładnie wartością.
+            Na przykład znacznik może być automatycznie napisany czcionką koloru czerwonego, jeśli
+            ma nadany atrybut title="...", o wartości podanej w deklaracji stylu. Znaczniki z atrybutem
+            title="..." o innej wartości nie będą już czerwone.<br><br>
+
+            UWAGA!<br>
+            W języku XHTML wszystkie atrybuty w selektorach muszą być pisane małymi literami.
+        </body>
+</html>

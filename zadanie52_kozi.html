@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>selektor atrybutu z wyrazem</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style type="text/css">
+            p[title~="ja"]{ font-size: 40pt; color: aqua; }
+
+            p[title~="Kozikowski"] {font-size: 60pt; color: silver;}
+
+            #p {text-align: justify;}
+        </style>
+    </head>
+        <body style="font-family: Arial, Helvetica, sans-serif;">
+            <p title="to ja zrobiłem" align="center">tekst formatowany w/g pierwszego wyrazu</p><br>
+
+            <p title="to ja tutaj Kozikowski" align="right">tekst formatowany w/g drugiego wyrazu</p><br>
+
+            <p title="to ja zrobiłem" align="center">tekst formatowany w/g pierwszego wyrazu </p><br><br>
+
+            <p title="to ja tutaj Kozikowski">Pan Kryniewski jest cudowną personą</p><br>
+
+
+            <b>Selektor atrybutu zawierającego określony wyraz</b><br><br>
+
+            Składnia teoretyczna:<br><br>
+
+            <fieldset>selektor[atrybut~="wyraz"] { cecha: wartość }</fieldset><br>
+            Selektorem może być dowolny znacznik, np. p - akapit, h1 - tytuł czy td - komórka tabeli i inne.<br><br>
+
+            Atrybut oznacza konkretny parametr nadany znacznikowi z poziomu (X)HTML (np. atrybut title="..."), którego wartość składa się z wyrazów rozdzielonych spacjami.<br><br>
+
+            <b>"Wyraz"</b> to określone słowo, zawierające się w wartości atrybutu, które nie może zawierać spacji.<br><br>
+
+            Natomiast <b>"cecha" oraz "wartość"</b> określają atrybuty elementu nadane poprzez style i zostaną opisane w dalszych rozdziałach.<br><br>
+
+            <u>Zastosowanie:</u><br>
+            <p id="p">Polecenie to może zostać wykorzystane dla elementów, którym z poziomu (X)HTML został
+            nadany atrybut, o wartości składającej się z kilku wyrazów rozdzielonych spacjami.
+            Deklaracja taka pozwala nadać konkretne cechy elementom, posiadającym atrybut, w którego
+            wartości występuje podany wyraz (oprócz niego mogą występować tam również inne
+            wyrazy). Wyraz nie może zawierać spacji! Na przykład deklaracja title~="jest" kojarzy
+            atrybuty: title="To jest akapit" lub title="To jest pogrubienie" itd.</p><br><br>
+
+            Uwaga:<br>
+            W języku XHTML wszystkie atrybuty w selektorach muszą być pisane małymi literami.
+
+        </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style>
+            p + span {font-style:italic; text-decoration:underline; color:green;}
+        </style>
+    </head>
+            <body>
+                <p>To jest tekst akapitu.</p> <span>A tutaj działa selektor rodzeństwa.</span>
+                <span>Natomiast ten tekst, pomimo że jest zamknięty w span, już nie jest formatowany, bo nie sąsiaduje bezpośrednio z akapitem.</span><br><br>
+
+                W powyższego kodu wynika, iż są dwa bloki &lt;span&gt; :<br><br>
+                <u>Pierwszy blok span</u> ➔ blok tekstu ujęty w &lt;p&gt; sąsiaduje ze znacznikiem &lt;span&gt;, &lt;span&gt;
+                przejmuje formatowanie od &lt;p&gt;,<br><br>
+
+                <u>Drugi znacznik</u> ➔ &lt;span&gt; bezpośrednio nie sąsiaduje z &lt;p&gt; i &lt;span&gt; nie przejmuje
+                formatowanie od &lt;p&gt;
+            </body>
+</html> 

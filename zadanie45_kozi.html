@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style>
+            p > span {font-style:italic; text-decoration:underline; color:green;}
+        </style>
+    </head>
+        <body>
+    <p>Dowolny tekst, w którym widać efekt działania <span>selektora dziecka</span>.</p>
+    <span>Tekst zamknięty wewnątrz znacznika span, który nie jest formatowany za pomocą selektora dziecka.</span><br><br>
+
+    <u>Działanie ➔ opis tekstu w ramce powyżej:</u><br>
+&lt;span&gt;&lt;/span&gt; jest „dzieckiem”<br>
+&lt;p&gt;&lt;/p&gt; jest „rodzicem”<br><br>
+
+<u>Pierwsza linia</u><br>
+Formatowaniu zostanie poddany tylko tekst znajdujący się wewnątrz znacznika
+&lt;span&gt;&lt;/span&gt;, który z kolei ograniczony jest przez &lt;p&gt;&lt;/p&gt;,<br><br>
+<u>Druga linia</u><br>
+Natomiast inne elementy, które nie są „dziećmi” &lt;p&gt;&lt;/p&gt;, pomimo że również zamknięte są
+w &lt;span&gt;&lt;/span&gt;, pozostaną bez zmian.
+        </body>
+</html>

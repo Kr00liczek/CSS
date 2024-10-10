@@ -1,0 +1,11 @@
+div {background-color: lime; margin: 20px;}
+
+div#blok1_kozikowski:hover {background-color: orange; width: 610px;font-size: 20mm;}
+
+div#blok2_kozikowski:hover {background-color: lightgreen; width: 610px;font-size: 20mm;}
+
+div#blok3_kozikowski:hover {background-color: gold; width: 610px;font-size: 20mm;}
+
+/*hover; ➔ efekt określający moment podczas najechania myszki na dany obszar np. div, hiperłącze, itd.*/
+
+/*Norbert Kozikowski*/

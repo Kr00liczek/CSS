@@ -1,0 +1,11 @@
+body {color:orange}
+
+p#pierwszy::first-letter {color:lightgreen; font-size: 121pt;}
+p#pierwszy {font-size: 22pt;}
+
+#drugi::first-letter {color:red; font-size: 121pt;}
+p#drugi {font-size: 23pt;}
+
+h1:first-letter {color: silver; font-size: 100px;}
+
+h2::first-line {color:red;}

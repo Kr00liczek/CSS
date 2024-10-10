@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>styl wpisany</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <style type="text/css">
+                p b { color: red } 
+            </style>
+    </head>
+        <body>
+            <p>Przy użyciu selektora potomka można formatować elementy, które sa zawarte wewnątrz innych znaczników,
+            czyli leżą niżej w hierarchii drzewa dokumentu.<br>
+            Dzięki temu, jeśli wewnątrz znacznika p (akapit)
+            <b>znajdzie się znacznik b (czyli pogrubienie tekstu), to zostanie on automatycznie </b>
+            napisany czcionką koloru czerwonego.<br><br>
+
+            <b>Kozikowski</p>
+
+            <p>Dlaczego napis z punktu trzeciego tego przykładu nie jest pisane kolorem czerwonym?<br><br>
+                &nbsp;Odpowiedź jest prosta, ponieważ nie ma znacznika &lt;/b&gt; w znaczniku &lt;p&gt; <b> <br>
+                &nbsp;to co jest i w znaczniku &lt;b&gt; i &lt;p&gt; jest napisane kolorem czerwonym,<br>
+                &nbsp;to co jest tylko w znaczniku &lt;b&gt; jest pogrubione,<br>
+                &nbsp;a to co jest tylko w znaczniku &lt;p&gt; jest wyświetlane normalnie
+        </body>
+</html>

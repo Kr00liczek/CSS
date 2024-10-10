@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            fieldset,p {font-size:17px; font-family: Arial, Helvetica, sans-serif;}
+            h1 {font-size:25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        </style>
+    </head>
+        <body>
+            <ol type="1">
+<h1><li>Pseudoelementem :first-line, który obejmuje formatowaniem całąpierwszą linię.</h1>
+
+    <fieldset><p>
+        p{color:navy; font-size:12pt;}<br><br>
+
+        p:first-line{color:red; font-size:20pt; font-weight:bold;}
+    </p></fieldset>
+
+
+<h1><li>Pseudoelementy: :after oraz :before</h1>
+
+    <fieldset><p>
+        Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
+        pseudoelementy: :after oraz :before. Oba elementy służą do umieszczania tekstu przed i za
+        formatowanym elementem strony. <br>Poniżej zamieszczam odpowiedni przykład.<br>
+        <fieldset>
+        p:before {content:"TO SĄ ĆWICZENIA"; font-size:15pt; font-style:italic; font-weight:bold;}<br><br>
+
+        p:after {content:"AUTOR Król Lew"; font-size:15pt; font-style:italic; font-weight:bold;}
+       </fieldset>
+    </p></fieldset>
+
+
+<h1><li>Pseudoelement :first-letter</h1>
+
+    <fieldset><p>
+        Pozwala na formatowanie pierwszej litery w bloku tekstu.<br>
+        Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+        nadanie jej koloru czerwonego.<br>
+        <fieldset>
+            p {color:navy; font-size:30pt;}<br><br>
+
+            p:first-letter{color:red; font-size:100pt;}
+        </fieldset><br>
+        
+        Efektem działania powyższego arkusza stylów będzie <u><b>powiększona pierwsza litera każdego
+        akapitu</b></u> występującego w dokumencie XHTML/HTML.<br><br>
+        Zastosowanie pseudoelement :first-letter z innymi znacznikami.<br>
+        Przykład z nagłówkiem stopnia pierwszego.
+        <fieldset>
+            H1 {color:navy; font-size:30pt;}<br><br>
+
+            H1:first-letter {color:red; font-size:100pt;}
+        </fieldset>
+    </p></fieldset>
+            </ol>
+        </body>
+</html>

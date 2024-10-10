@@ -1,0 +1,280 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            p {font-size:17px; font-family: Arial, Helvetica, sans-serif;}
+            h1 {font-size:25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        </style>
+    </head>
+        <body>
+            <ol type="1">
+<h1><li>Jakie standardowo dostępne są czcionki w systemie Windows</h1>
+
+    <fieldset><p> 
+        <ul type="square" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+            <li>Times New Roman (szeryfowa)
+                <li>Arial (bezszeryfowa)
+                    <li>Courier New (monotypiczna)    
+        </ul>
+    </p></fieldset>
+
+
+
+<h1><li>Jakich czcionek dodatkowo dostarcza Internet Explorer</h1>
+
+    <fieldset><p> 
+        <ul type="circle" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+            <li>Verdana
+                <li>Tahoma
+                    <li>'Trebuchet MS'
+                        <li>Georgia   
+        </ul>
+    </p></fieldset>
+
+
+
+<h1><li>Wymień rodziny ogólne </h1>
+
+    <fieldset><p> 
+        <ul type="disc" style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+            <li>serif – <u>czcionka szeryfowa</u> (końcówki znaków posiadają „ozdobniki”)
+            <li>sans-serif – <u>czcionka bezszeryfowa</u> (końcówki znaków są proste)
+            <li>monospace – <u>czcionka o stałej szerokości znaków</u> – monotypiczna (wygląda, jak pisana na maszynie)
+            <li>cursive – <u>czcionka mająca pewne cechy pochyłej</u> (wygląda, jak pisana ręcznie)
+            <li>fantasy – <u>czcionka fantazyjna</u> (dekoracyjna)
+        </ul>
+    </p></fieldset>
+
+
+
+<h1><li>Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy</h1>
+
+        <fieldset><p>  
+        Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie<br>
+        będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost.
+        body <br>
+        {<br>
+        font-family: Arial, Helvetica, Verdana,<b> sans-serif</b>;<br>
+        }
+        </p></fieldset>
+
+
+
+<h1><li>Rodzaje wyrównanie tekstu</h1>
+
+    <fieldset><p>   
+	    <ul type=square style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+		    <li>"left" - wyrównanie tekstu do lewego marginesu (domyślnie)
+		    <li>"right" - wyrównanie tekstu do prawego marginesu
+		    <li>"center" - wyśrodkowanie
+		    <li>"justify" - wyrównanie do obu marginesów jednocześnie (justowanie)
+        </ul>
+    </p></fieldset>
+
+
+
+<h1><li>Kolor tekstu</h1>
+
+    <fieldset><p>  
+    Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+    Natomiast jako kolor należy podać definicję koloru.<br>
+    Dzięki temu poleceniu można ustalić dowolny kolor tekstu.<br><br>
+
+    <p style="color:red">kolor #ff0000; (red)</p>
+    <p style="color:purple">kolor #800080; (purple)</p>
+    <p style="color:yellow">kolor #ffff00; (yellow)</p>
+    <p style="color:maroon">kolor #800000; (maroon)</p>
+    <p style="color:silver">kolor #c0c0c0; (silver)</p>
+    <p style="color:navy">kolor #000080; (navy)</p>
+    <p style="color:green">kolor #008000; (green)</p>
+    </p></fieldset>
+
+
+
+<h1><li>Dekoracja tekstu</h1>
+
+    <fieldset><p>  
+        <ol type=a style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+		<li>Podkreślić - (underline)<br>
+		 
+		 {<br>
+		 <b><p style="text-decoration: underline;">text-decoration: underline;</p></b>
+		 }<br><br>
+
+            <li> Przekreślić - (line-through)<br>
+		    
+		    {<br>
+		    <b><p style="text-decoration: line-through;">text-decoration: line-through;</p></b>
+            }<br><br>
+
+				<li>Nadkreślić - (overline)<br>
+				
+		        {<br>
+		        <b><p style="text-decoration: overline;">text-decoration: overline;</p></b>
+                }<br><br>
+
+					<li> Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)<br>
+		            
+		            {<br>
+		            <b><p style="text-decoration: blink;">text-decoration: blink;</p></b>
+		            }
+	    </OL>
+    </p></fieldset>
+
+
+
+<h1><li>Warianty czcionek</h1>
+
+    <fieldset><p>  
+        <b>normal</b> - czcionka normalna (podstawowa)<br>
+        <b>small-caps</b> - kapitaliki<br>
+        <b>"kapitaliki"</b>, czyli tekst napisany wielkimi literami, lecz czcionką o wielkości małych liter.<br>
+    </p></fieldset>
+
+
+
+<h1><li>Pogrubienie czcionek</h1>
+
+    <fieldset><p>  
+	    <ul type=square style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+		    <li>normal - czcionka normalna
+		        <li>bold - czcionka pogrubiona
+		            <li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800,<br>
+                    900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo<br>
+                    wytłuszczonej jak dla poprzedniej wartości w sekwencji
+
+	    </ul>
+    </p></fieldset>
+
+
+
+<h1><li>Rozmiar czcionek</h1>
+
+    <fieldset><p>  
+	    <ul type=square style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+		    <li><b>xx-small</b> - najmniejsza
+			    <li><b>x-small</b> - mniejsza
+				    <li><b>small</b> - mała
+					    <li><b>medium</b> - średnia
+						    <li><b>large</b> - duża
+							    <li><b>x-large</b> - większa
+								    <li><b>xx-large</b> - największa
+	    </ul>
+    </p></fieldset>
+
+
+
+<h1><li>Transformacja tekstu </h1>
+
+    <fieldset><p>  
+        Składnia reguły:<br><br>
+        selektor {text-transform: transformacja;}<br>
+        Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+        transformacja:<br><br>
+        <b>"none"</b> - bez zmian<br>
+        <b>"capitalize"</b> - zamiana pierwszych liter wszystkich wyrazów na wielkie<br>
+        <b>"uppercase"</b> - zamiana wszystkich liter na wielkie<br>
+        <b>"lowercase"</b> - zamiana wszystkich liter na małe
+    </p></fieldset>
+
+
+
+<h1><li>Wcięcia tekstu</h1>
+
+    <fieldset><p>  
+        Składnia reguły:<br><br>
+        selektor {text-indent: wcięcie;}<br>
+        Wyraz selektor ma zastosowanie do elementów blokowych.<br>
+        wcięcie:<br>
+        należy podać konkretną wielkość, używając jednostek miary:<br><br>
+        piksele - px<br>
+        punkty edytorskie - pt<br>
+        wysokość litery "x" - ex<br>
+        wysokość aktualnej czcionki - em<br>
+        centymetry lub milimetry - cm, mm<br>
+        części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+        cale - in (1in=2.54cm)<br>
+        procent wielkości nadrzędnej - %<
+    </p></fieldset>
+
+
+
+<h1><li>Odstęp miedzy wierszam</h1>
+
+    <fieldset><p>  
+        Składnia reguły:<br><br>
+        selektor {line-height: odstęp;}<br>
+        Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+        odstęp:<br>
+        należy podać konkretną wielkość, używając jednostek miary:<br><br>
+        piksele - px<br>
+        punkty edytorskie - pt<br>
+        wysokość litery "x" - ex<br>
+        wysokość aktualnej czcionki - em<br>
+        centymetry lub milimetry - cm, mm<br>
+        części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+        cale - in (1in=2.54cm)<br>
+        procent wielkości nadrzędnej -%<br>
+        "normal" - przywraca wartość domyślną
+    </p></fieldset>
+
+
+
+<h1><li>Odstęp między wyrazami</h1>
+
+    <fieldset><p>  
+        Składnia reguły:<br><br>
+        selektor {word-spacing: odstęp;}<br>
+        Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+        odstęp:<br>
+        należy podać konkretną wielkość, używając jednostek miary:<br><br>
+        piksele - px<br>
+        punkty edytorskie - pt<br>
+        wysokość litery "x" - ex<br>
+        wysokość aktualnej czcionki - em<br>
+        centymetry lub milimetry - cm, mm<br>
+        części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+        cale - in (1in=2.54cm)
+    </p></fieldset>
+
+
+
+<h1><li>Odstęp między literami</h1>
+
+    <fieldset><p>  
+    Składnia reguły:<br><br>
+    selektor {letter-spacing: odstęp;}<br>
+    Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+    odstęp:<br>
+    należy podać konkretną wielkość, używając jednostek miary:<br><br>
+    piksele - px<br>
+    punkty edytorskie - pt<br>
+    wysokość litery "x" - ex<br>
+    wysokość aktualnej czcionki - em<br>
+    centymetry lub milimetry - cm, mm<br>
+    części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+    cale - in (1in=2.54cm)<br>
+    "normal" - przywraca wartość domyślną
+
+</p></fieldset>
+
+
+
+<h1><li>Łączenie właściwości czcionek i tekstu</h1>
+
+    <fieldset><p>
+        <ul type=square style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">
+            <li>font-style
+                <li>font-variant
+                    <li>font-weight
+                        <li>font-size
+                            <li>line-height
+                                <li>font-family
+        </ul>
+</p></fieldset>
+            </ol>
+
+
+</body>
+
+</html>

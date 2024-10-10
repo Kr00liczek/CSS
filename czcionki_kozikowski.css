@@ -1,0 +1,37 @@
+p#imie{color:#ff0000; font-size:1cm; text-align:center;}
+
+p#styl{color:#0000ff; font-size: 6mm; margin-left: 200px;}
+
+hr{border-top: 2px dashed black;}
+
+h5{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;}
+
+p{font-family: Arial, Helvetica, sans-serif;}
+
+ul{font-family: Arial, Helvetica, sans-serif;}
+
+
+#z1_kozikowski{font-family:serif; color:#ff4500; text-decoration: overline ; font-weight:200; font-size:x-small;
+                text-indent:2cm; line-height:1cm; word-spacing:12px; letter-spacing:5ex;}
+
+
+#z2_kozikowski{font-family:serif; color:#ff8c00; font-style:italic; font-variant: small-caps; font-weight:700; font-size:medium; text-indent:2cm;
+                line-height:1cm; word-spacing:12px; letter-spacing:5ex;}
+
+
+#z3_kozikowski{font-family:serif; color:#ffa500; text-transform: uppercase;  font-weight:900;
+                font-size:large; text-indent:2cm; line-height:1cm; word-spacing:12px; letter-spacing:5ex;}
+  
+
+
+
+        #z4_kozikowski{font-family:sans-serif; color:#00ff00; text-decoration:line-through ; font-variant:small-caps;
+                    font-weight:300; font-size:10px; text-indent:25mm; line-height:15mm; word-spacing:10pt; letter-spacing:0.5cm;}
+  
+
+        #z5_kozikowski{font-family:sans-serif; color:#00fa9a; text-transform: capitalize; font-weight:600; font-size:0.15in;
+                    text-indent:25mm; line-height:15mm; word-spacing:10pt; letter-spacing:0.5cm;}
+
+
+        #z6_kozikowski{font-family:sans-serif; color:#20b2aa; font-style:oblique; font-weight:800; font-size:1em;
+                    text-indent:25mm; line-height:15mm; word-spacing:10pt; letter-spacing:0.5cm;}

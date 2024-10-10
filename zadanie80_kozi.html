@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+          td {padding: 5px;}
+            td[rowspan] {text-align:center;}
+            body {font-family: Arial, Helvetica, sans-serif;}
+        </style>
+    </head>
+        <body>
+            <table border="1">
+
+                  <tr>
+                    <td rowspan="2">Pozycjonowanie</td>
+                    <td><B><u>Pozycjonowanie </u></B>pozwala zdefiniować położenie elementów na stronie internetowej.
+                        Elementy można rozmieszczać nie tylko względem brzegów strony, ale również względem jej
+                        poszczególnych elementów. Można rozmieszczac elementy tak, że jeden będzie przykrywał
+                        inny.</td>
+                  </tr>
+                  <tr>
+                    <td>Do pozycjonowania służy <b>atrybut position</b><br>
+                        selektor{ position: rodzaj; parametry; }
+                        </td>
+                  </tr>
+
+                  <tr>
+                    <td rowspan="3">1</td>
+                    <td><b>Pozycjonowanie relatywne</b></td>
+                  </tr>
+                  <tr>
+                    <td>Dzięki temu poleceniu <u>można przesunąć wybrany element w stosunku do naturalnego
+                      pozycjonowania elementów.</u> Można <u>łączyć kierunki, </u>czyli jednocześnie ustawić odległość od na przykład lewej i górnej krawędzi. 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      selektor {position: relative; kierunek: wielkość;}<br>
+                     np. selektor {position: relative; left: 10px; top: 10px;}
+                     </td>
+                  </tr>
+
+
+                  <tr>
+                    <td rowspan="3">2</td>
+                    <td><b>Pozycjonowanie absolutne</b></td>
+                  </tr>
+                  <tr>
+                    <td>Dzięki temu poleceniu <u>można przesunąć wybrany element w stosunku do wybranych
+                      krawędzi strony lub też nadrzędnego elementu tworzącego blok.</u> Będzie to niezależne od
+                      innych elementów, a także od miejsca wpisania reguły w dokumencie.
+                      Należy zachować ostrożność, używając pozycjonowania absolutnego, ponieważ niekiedy
+                      może ono prowadzić do nieprzewidywalnych zachowań.
+                      Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i górnej
+                      krawędzi. </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      selektor {position: absolute; kierunek: wielkość;}<br>
+                      np. selektor {position: absolute; left: 10px; top: 10px;}</td>
+                  </tr>
+
+                  <tr>
+                    <td rowspan="3">3</td>
+                    <td><b>Pozycjonowanie ustalone</b></td>
+                  </tr>
+                  <tr>
+                    <td>Dzięki temu poleceniu można ustawić na stałe wybrany element w stosunku do krawędzi
+                      okna. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i
+                      górnej krawędzi</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      selektor {position: fixed; kierunek: wielkość;}<br>
+                      np. selektor {position: fixed; left: 10px; top: 10px;}</td>
+                  </tr>
+
+                  <tr>
+                    <td rowspan="3">4</td>
+                    <td><b>Pozycjonowanie statyczne</b></td>
+                  </tr>
+                  <tr>
+                    <td>Dzięki temu poleceniu można przywrócić naturalne pozycjonowanie elementów oparte na
+                      kolejności występowania w dokumencie HTML. Podanie jakiejkolwiek odległości nie ma
+                      żadnego wpływu na pozycję elementu.</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      selektor {position: static;}</td>
+                  </tr>
+                  
+            </table>
+        </body>
+</html>

@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style>
+            p {font-size:17px; font-family: Arial, Helvetica, sans-serif;}
+            h1 {font-size:25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+            ol {font-size:17px; font-family: Arial, Helvetica, sans-serif;}
+        </style>
+    </head>
+        <body>
+            <ol type="1">
+<h1><li>Składnia teoretyczna definiowania klasy</h1>
+                    <fieldset><p>selektor.klasa { cecha: wartość }</p></fieldset>
+                
+
+<h1><li>Podaj opis dla Klasa "cecha" oraz "wartość"</h1>
+                    <fieldset><p><b>Klasa</b> to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML.
+                        <b>"Cecha" oraz "wartość"</b> określają atrybuty elementu nadane poprzez style.</p></fieldset>
+
+
+<h1><li>Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem)</h1>
+                    <fieldset><p><b>Selektorem</b> może być dowolny znacznik, np. p - akapit, h1 - tytuł czy td - komórka tabeli i inne<br></p></fieldset>
+
+
+<h1><li>Podaj uwagi na temat nazwy klas</h1>
+                    <fieldset><p>
+                            
+                        Nazwą może być <b>dowolny pojedynczy wyraz</b>, który nie może zawierać:<br>
+                                <ol type="a">
+                                    <li>spacji
+                                    <li>kropki
+                                    <li>przecinka
+                                    <li>dwukropka
+                                    <li>pytajnika
+                                    <li>nawiasów
+                                    <li>znaku równości
+                                    <li>plusa
+                                </ol><br>
+
+
+                        Może zawierać:<br>
+                        <ol type="a" >
+                            <li>litery (A-Z, a-z)
+                            <li>cyfry (0-9)
+                            <li>myślniki ("-")
+                            <li>podkreślniki ("_"). Lepiej nie używać polskich liter. 
+                            </ol> <br>
+
+                            Nazwa nie może się zaczynać od <b>cyfry czy myślnika</b><br><br>
+
+                            Gdy chcemy użyć znaków "zakazanych" znaków, należy <b>w deklaracji klasy
+                                poprzedzić je odwróconym ukośnikiem "\", np. reguła: selektor.B\&W\? { cecha:
+                                wartość } odpowiada klasie: class="B&W?".</b>
+                        
+                    </p></fieldset>
+
+
+<h1><li>Jakie jest zastosowanie klas?</h1>
+                    <fieldset><p>Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się
+                        elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się
+                        selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co
+                        wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie. </p></fieldset>
+
+
+<h1><li>Kiedy ma zastosowanie lista klas?</h1>
+                    <fieldset><p>Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas, 
+                        które muszą być zdeklarowane w wewnętrznym, zewnętrznym lub importowanym arkuszu stylów.
+                        Jeżeli kilka przypisanych klas odnosi się do tej samej własności, o wyniku decyduje zasada kaskadowości.
+                        </p></fieldset>
+
+
+<h1><li>Składnia teoretyczna listy klasy</h1>
+                    <fieldset><p>&lt;selektor class="klasa1 klasa2 klasa3..."&gt;...&lt;/selektor&gt;</p></fieldset>
+
+
+<h1><li>Czym są podzbiory klas</h1>
+                    <fieldset><p>Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć
+                        jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie</p></fieldset>
+
+
+<h1><li>Co jest sygnałem (przesłanką), że należy zastosować klasy?</h1>
+                    <fieldset><p></p></fieldset>
+
+
+<h1><li>Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?</h1>
+                    <fieldset><p>Już na początkowym etapie projektowania serwisu, dobrze jest dokładnie obmyślić,
+                        jakie klasy mogą okazać się użyteczne. Im więcej deklaracji klas - odnoszących się do
+                        powtarzalnych elementów umieścimy w zewnętrznym arkuszu stylów, tym szybciej
+                        przebiegnie późniejsza ewentualna modyfikacja stron</p></fieldset>
+
+
+<h1><li>Jaki jest cel stosowania komentarzy podczas definiowania klas?</h1>
+                    <fieldset><p>Aby opisywać przeznaczenie klasy. Po jakimś czasie w  arkuszu stylów może znaleźć się 
+                        tyle klas, że można zapomnieć, do jakich elementów się one odnosiły. Wtedy właśnie bardzo 
+                        przydatny może się okazać wpisany wcześniej komentarz.
+                        </p></fieldset>
+
+
+<h1><li>Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie)</h1>
+                    <fieldset><p>
+                        <u>definicja arkusza styli</u><br>
+                        p.przyklad_klasa { color: red }<br><br>
+
+                        <u>wywołanie</u><br>
+                        &lt;p class="przyklad_klasa"&gt;To jest akapit.&lt;/p&gt;</p></fieldset>
+
+
+<h1><li>Omów klasę odnosząca się tylko do jednego selektora wraz z przykładem</h1>
+                    <fieldset><p>Podobnie jak w przypadku identyfikatora, tak zdefiniowana klasa może zostać użyta tylko w
+                        tym selektorze, do którego została przypisana, np.:<br><br>
+
+                        <u>definicja arkusza styli</u><br>
+                        p.moja {color:green; font-size:14pt;}<br><br>
+
+                        <u>wywołanie</u><br>
+                        Powinna zostać wywołana w znaczniku &lt;p&gt;&lt;/p&gt; w następujący sposób:<br>
+                        &lt;p class=”moja”&gt;Treść akapitu&lt;/p&gt;
+                    
+                    </p></fieldset>
+
+
+<h1><li>Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy można nie stosować tego znaku. Podaj przykład (definicja, wywołanie).</h1>
+                    <fieldset><p>W przypadku stosowanie klas, często podczas ich definiowania, nie wiemy jeszcze, w
+                        stosunku do jakich znaczników będziemy chcieli je później użyć. Wtedy przydatny okazuje
+                        się selektor uniwersalny, który pozwala przypisać własności klasy do wszystkich elementów,
+                        którym zostanie ona nadana, bez względu na typ znacznika czyli <b>użycie jest możliwe w
+                        różnych znacznikach.</b><br><br>
+                        Gwiazdka <b>„*”</b> oznacza, że zostaną zastosowane określone style do wszystkich elementów na stronie.<br>
+                        Można nie stosować, gdy chcemy zastosować globalne style tylko dla określonych elementów<br><br>
+
+                        <u>definicja arkusza styli</u><br>
+                        moja {color:red; font-size:12pt; font-style:italic;}<br><br>
+
+                        <u>wywołanie</u><br>
+                        &lt;p class=”moja”&gt;Przykład akapitu z określoną klasą&lt;/p&gt;<br>
+                        &lt;ol class=”moja”&gt;<br>
+                        &lt;h1 class=”moja”&gt;Przykład nagłówka z określoną klasą&lt;/h1&gt;
+                        </p></fieldset>
+        </body>
+</html>
